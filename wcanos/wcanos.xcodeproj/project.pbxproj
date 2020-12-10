@@ -99,6 +99,7 @@
 		1A3F6F5E2581E47B00112CDB /* wcanos */ = {
 			isa = PBXGroup;
 			children = (
+				1A6A2E0D2582076000728891 /* Class */,
 				1A3F6F5F2581E47B00112CDB /* AppDelegate.swift */,
 				1A3F6F612581E47B00112CDB /* SceneDelegate.swift */,
 				1A3F6F632581E47B00112CDB /* ViewController.swift */,
@@ -126,6 +127,61 @@
 				1A3F6F832581E48000112CDB /* Info.plist */,
 			);
 			path = wcanosUITests;
+			sourceTree = "<group>";
+		};
+		1A6A2E0D2582076000728891 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				1A6A2E132582076000728891 /* Main */,
+				1A6A2E0F2582076000728891 /* Home */,
+				1A6A2E122582076000728891 /* Live */,
+				1A6A2E112582076000728891 /* Follow */,
+				1A6A2E0E2582076000728891 /* Profilr */,
+				1A6A2E102582076000728891 /* Tools */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		1A6A2E0E2582076000728891 /* Profilr */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profilr;
+			sourceTree = "<group>";
+		};
+		1A6A2E0F2582076000728891 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1A6A2E102582076000728891 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1A6A2E112582076000728891 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		1A6A2E122582076000728891 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		1A6A2E132582076000728891 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,6 +493,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVEJDMXF5S;
 				INFOPLIST_FILE = wcanos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +501,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wecan.wcanos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,6 +512,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SVEJDMXF5S;
 				INFOPLIST_FILE = wcanos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +520,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wecan.wcanos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
